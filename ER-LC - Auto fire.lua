@@ -1,3 +1,5 @@
+local _VERSION_ = "1.0a"
+
 if not game.PlaceId == 2534724415 then return end
 
 local function AutoFire()
@@ -135,4 +137,4 @@ end
 
 repeat wait(0.2) until game:IsLoaded();
 AutoFire()
-warn("Auto-fire is enabled.")
+warn("Auto-fire is enabled. (V".._VERSION_..")")
