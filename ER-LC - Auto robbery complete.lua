@@ -1,3 +1,5 @@
+local _VERSION_ = "1.0a"
+
 if game.PlaceId == 2534724415 then 
     repeat wait(0.2) until game:IsLoaded()
     
@@ -76,7 +78,7 @@ if game.PlaceId == 2534724415 then
     end
     
     
-    autoPickLock(); warn("Auto pick-lock activated.")
-    autoRobJewlery(); warn("Auto-rob jewlery activated.")
-    autoRobATM(); warn("Auto-rob ATM activated.")
+    autoPickLock(); warn("Auto pick-lock activated. (V".._VERSION_..")")
+    autoRobJewlery(); warn("Auto-rob jewlery activated. (V".._VERSION_..")")
+    autoRobATM(); warn("Auto-rob ATM activated. (V".._VERSION_..")")
 end
